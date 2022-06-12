@@ -3,20 +3,24 @@ body {
     font-family: "Lucida Console";
     font-variant: small-caps;
   }
-  ul {
+  ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     position: fixed;
   }
-  li a {
+  .nav > li > a {
     text-decoration: none;
     display: inline-block;
     padding: 5px 10px;
+    color:#333;
   }
-  li a:hover {
+  .nav > li a:hover {
     color: red;
+  }
+  .nav > li > a:visited {
+    color:#333;
   }
   .main {
     margin-left: auto;
@@ -33,4 +37,14 @@ body {
   }
   footer {
     text-align: center;
+  }
+
+  table{
+    width: 100%;
+  }
+  td{
+    width: 50%;
+  }
+  .section{
+    margin-bottom: 50px;
   }

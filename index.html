@@ -10,56 +10,210 @@
     <link rel="stylesheet" href="docs/assets/css/main.css" />
   </head>
   <body>
-    <ul>
+    <ul class="nav">
       <li><a href="#me" class="active">Me</a></li>
       <li><a href="#profession">Profession</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
     </ul>
     <div class="main">
-      <div id="me">
-        <h1>Me</h1>
-        <img
-          src="docs/assets/images/me.png"
-          alt="Picture about Roland Kovács"
-        />
-        <div>
-          My name is Roland Kovács. I live in Hungary, near to capital Budapest.
-          Woking in software industry since 2016, currently at Varian since 2019
-          december. The design of my website mirrors me, I like simplicity.
-        </div>
-        <div>
-          <a href="">LinkedIn</a>
-          <a href="">GitHub</a>
-          <a href="">kovirolig@gmail.com</a>
-          <a href="tel:+36308787857">0036308787857</a>
-        </div>
+      <!-- Me -->
+      <div id="me" class="section">
+        <table>
+          <tr>
+            <th><h1>Me</h1></th>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="docs/assets/images/me.png"
+                alt="Picture about Roland Kovács"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              My name is Roland Kovács. I live in Hungary, near to capital
+              Budapest. Woking in software industry since 2016, currently at
+              Varian since 2019 december. The design of my website mirrors me, I
+              like simplicity.
+              <div style="margin: 10px">
+                <a href="">kovirolig@gmail.com</a>
+                <a href="">Linkedin</a>
+              </div>
+            </td>
+          </tr>
+        </table>
       </div>
-      <div id="profession">
-        <h1>Professional past</h1>
-        <h2 style="float: left">Varian</h2>
-        <h2 style="float: right">2019-2022</h2>
-        <div style="clear: left">
-          Been developing a Radiation Treatment Management software that
-          contains multiple workspaces.
-        </div>
+      <!-- Profession -->
+      <div id="profession" class="section">
+        <table>
+          <tr>
+            <th colspan="2"><h1>Professional past</h1></th>
+          </tr>
+          <tr>
+            <td><h2>Varian</h2></td>
+            <td><h2>December 2019 - On wards</h2></td>
+          </tr>
+          <tr>
+            <td><h3>Software Engineer</h3></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              ARIA Oncology Information System, egy több programból álló
+              szoftver csomagon dolgozok. Aktívan együttműködök DevOps
+              témakörben is, junior kollegákat mentorálok, egyes projekteknek az
+              én csapatomra eső featurejei fejlesztését vezetem, ehez az
+              dokumentálok mind engeineering szinten, mind felhasználói szinten.
+              <div>
+                Keywords: C#, WPF, MS SQL, TFS, Azure DevOps, Team City, Build
+                Management, Mentoring, Scrum
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><h2>Evosoft</h2></td>
+            <td><h2>January 2019 - December 2019</h2></td>
+          </tr>
+          <tr>
+            <td><h3>Software Engineer</h3></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              A feladatom egy gyártósor feltérképezését, komponenseinek
+              konfigurációját lehetővé tevő szoftver átvétele volt egy német
+              csapattól, ezt kommunkálva és dokumentálva az Evosoft részére.
+              <div>Keywords: C#, WPF, WinForms, Jenkins, Scrum</div>
+            </td>
+          </tr>
+          <tr>
+            <td><h2>Labtech</h2></td>
+            <td><h2>January 2017 - December 2018</h2></td>
+          </tr>
+          <tr>
+            <td><h3>Software Engineer</h3></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              I developed Cardiospy, a software analysing ECG recordings. Also
+              my job were:
+              <ul style="text-align: left">
+                <li>
+                  Legacy hardware tesztelő program teljes újraírása, szorosan
+                  együttműködve hardware fejlesztőkel
+                </li>
+                <li>Felhasználói panaszok kezelése</li>
+                <li>Közvetlen kommunikáció felhasználókkal</li>
+                <li>
+                  Utazás kórházakba, ott installált rendszerek helyszíni
+                  ellenőrzése
+                </li>
+              </ul>
+              <div>Keywords: C#, WinForms, Jira, Jenkins, Scrum</div>
+            </td>
+          </tr>
+          <tr>
+            <td><h2>Ozeki Informatics Ltd</h2></td>
+            <td><h2>May 2016 - December 2016</h2></td>
+          </tr>
+          <tr>
+            <td><h3>Junior Software Developer</h3></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              Developed VoIP class library(SDK), fixed bugs.
+              <div>Keywords: C#, ASP.NET, Jira</div>
+            </td>
+          </tr>
+        </table>
       </div>
-      <div id="education">
-        <h1>Education</h1>
-        <h2 style="float: left">University of Debrecen</h2>
-        <h2 style="float: right">2013-2017</h2>
-        <div style="clear: left">
-          Been developing a Radiation Treatment Management software that
-          contains multiple workspaces.
-        </div>
+
+      <!-- Education -->
+      <div id="education" class="section">
+        <table>
+          <tr>
+            <th colspan="2"><h1>Education</h1></th>
+          </tr>
+          <tr>
+            <td><h2>University of Debrecen</h2></td>
+            <td><h2>2013-2017</h2></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <p>
+                Contributed to several school projects such as: Robocar, a
+                common research platform for developing urban traffic control
+                algorithms. Two main projects I worked on is 3D liver modelling
+                program and one that also is my diploma thesis, Melanoma
+                detection.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <th colspan="2"><h3>Diploma thesis</h3></th>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <h3>
+                Melanoma - detecting skin cancer with massively parallellised
+                image processing methods
+              </h3>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              I consumed several matemathicans work that published math models
+              describing and detecting malicious moles. The got the math model
+              and implemented it with C++, Intel Parallels Library and OpenCV.
+            </td>
+          </tr>
+        </table>
       </div>
-      <div id="projects">
-        <h1>Projects</h1>
-        <h2>Rolippo</h2>
-        <div style="clear: left">
-          Been developing a Radiation Treatment Management software that
-          contains multiple workspaces.
-        </div>
+
+      <!-- Projects-->
+      <div id="projects" class="section">
+        <table>
+          <tr>
+            <th colspan="2"><h1>Projects</h1></th>
+          </tr>
+          <tr>
+            <td colspan="2"><h2>Rolippo</h2></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <p>
+                Create and share shopping list between multiple users, without
+                registration.
+              </p>
+              <div>Keywords: C#, Xamarin.Forms, ASP.NET, Azure</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Achievements -->
+      <div id="achievements" class="section">
+        <table>
+          <tr>
+            <th colspan="2"><h1>Achievements</h1></th>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <h3>Microsoft Azure Data Fundamentals certification</h3>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <h3>Transalted SemVer to Hungarian language</h3>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <h3>Contributed to Microsoft Docs several times</h3>
+            </td>
+          </tr>
+        </table>
       </div>
     </div>
     <footer>Roland Kovács - 2022</footer>
