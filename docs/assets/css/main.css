@@ -1,4 +1,4 @@
-body {
+  body {
     margin: 0px;
     font-family: "Lucida Console";
     font-variant: small-caps;
@@ -38,7 +38,10 @@ body {
     background-color: #333;
   }
   footer {
+    padding: 20px;
     text-align: center;
+    background-color: #333;
+    color:white
   }
 
   table{
