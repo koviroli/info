@@ -53,3 +53,7 @@
   .section{
     margin-bottom: 50px;
   }
+
+  .section h2{
+    font-size: 20px;
+  }
