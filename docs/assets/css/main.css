@@ -3,6 +3,9 @@
     font-family: "Lucida Console";
     font-variant: small-caps;
   }
+  img{
+    border-radius: 8px;
+  }
   ul.nav {
     list-style-type: none;
     margin: 0;
