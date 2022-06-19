@@ -8,16 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Roland Kovács</title>
     <link rel="stylesheet" href="docs/assets/css/main.css" />
+    <script src="/docs/assets/js/main.js"></script>
   </head>
   <body>
-    <ul class="nav" style="font-size: 20px">
+    <!--  <ul class="nav" style="font-size: 20px">
       <li><a href="#me" class="active">About me</a></li>
       <li><a href="#profession">Profession</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#achievements">Achievements</a></li>
-    </ul>
+    </ul>-->
     <div class="main">
       <!-- Me -->
       <div id="me" class="section">
@@ -39,11 +40,17 @@
               Budapest. Woking in software industry since 2016, currently at
               Varian since 2019 december. The design of my website mirrors me, I
               like simplicity.
-              <div style="margin: 10px">
-                <a href="mailto: abc@example.com">kovirolig@gmail.com</a>
-                <a href="https://www.linkedin.com/in/koviroli/" target="_blank"
-                  >Linkedin</a
-                >
+              <div>
+                <div class="social">
+                  <a href="mailto:kovirolig@gmail.com">kovirolig@gmail.com</a>
+                </div>
+                <div class="social">
+                  <a
+                    href="https://www.linkedin.com/in/koviroli/"
+                    target="_blank"
+                    >Linkedin</a
+                  >
+                </div>
               </div>
             </td>
           </tr>
@@ -198,7 +205,8 @@
           <tr>
             <td colspan="2">
               EMBC 2018 - High Performance Medical Computing in Clinics with
-              HuSSaR*, László Kovács1, Roland Kovács2, András Hajdu3
+              HuSSaR*, László Kovács<sup>1</sup>, Roland Kovács<sup>2</sup>,
+              András Hajdu<sup>3</sup>
             </td>
           </tr>
         </table>
@@ -249,6 +257,7 @@
         </table>
       </div>
     </div>
+    <button id="toTop" onclick="topFunction()" title="Go to top">&uarr;</button>
     <footer>Roland Kovács - 2022</footer>
   </body>
 </html>
